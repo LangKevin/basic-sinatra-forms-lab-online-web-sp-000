@@ -11,6 +11,7 @@ class App < Sinatra::Base
 # params.to_s
 "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
   end
+
   get '/newteam' do
     erb :newteam
   end
