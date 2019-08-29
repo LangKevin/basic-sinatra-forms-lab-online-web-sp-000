@@ -12,7 +12,7 @@ class App < Sinatra::Base
 "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
   end
   get '/newteam' do
-    erb :food_form
+    erb :newteam
   end
 
   # Add your post route and action below
